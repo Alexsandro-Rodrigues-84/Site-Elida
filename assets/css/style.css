@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-attachment: fixed;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.685);
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(54, 53, 53, 0.774);
+    box-shadow: 1px 3px 5px #85838398;
+}
+
+.container {
+    display: flex;
+    width: 990px;
+}
+
+.header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 170px;
+    height: 70px;
+}
+
+.navMenu {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navMenu a {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.navMenu a:hover {
+    color: darkgray;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.navMenu a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+/*Banner*/
+
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/fundo6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+.banner .container {
+    margin: 10px;
+}
+
+.banner .bannerImg {
+    width: 400px;
+    height: 490px;
+    border: 1px solid #111111;
+    border-radius: 50%;
+    box-shadow: -2px 3px 5px #ffffff93;
+    background-image: url(../img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.cBanner .bannerImg, .bannerBio {
+    flex: 1;
+    margin: 10px;
+}
+
+.cBanner .bannerBio img {
+    width: 500px;
+}
+
+
+.bannerBio p {
+    color: #c28f10;
+    font-family: 'Courgette', cursive;
+    font-size: 19px;
+    padding: 20px;
+    text-align: justify;
+    text-shadow: 2px 2px 1px #0e0a01e0;
+    border-right: 1px solid #e7dfdf8a;
+    border-bottom: 1px solid #6461618a;
+    border-radius: 15px;
+    background-color: #ffffff18;
+    backdrop-filter: blur(10px);
+}
+
+/*Make pele Negra*/
+
+.peleNegra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 3px 5px #fff;
+}
+
+.cNegra {
+    display: block;
+    height: calc(100vh - 100px);
+}
+
+.cNegra h2 {
+    margin: 40px 0 30px 10px;
+}
+
+.cNegra .titulo a {
+    text-decoration: none;
+    color: #000;
+    border-left: 1px solid rgba(0, 0, 0, 0.521);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.521);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.foto {
+    display: flex;
+}
+
+.foto .foto1, .foto2, .foto3 {
+    flex: 1;
+    height: 350px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: -2px 3px 5px #000;
+}
+
+.foto1 {
+    background-image: url(../img/pele-negra1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto2 {
+    background-image: url(../img/pele-negra2.jpg);
+    background-color: rgb(204, 139, 53);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto3 {
+    background-image: url(../img/pele-negra4.jpg);
+    background-color: rgb(112, 67, 8);
+    background-size: cover;
+    background-position: center;
+}
+
+/*Make pele Clara*/
+
+.peleClara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cClara {
+    display: block;
+    background-color: rgba(8, 8, 8, 0.603);
+    height: calc(100vh - 100px);
+}
+
+.cClara h2 {
+    margin: 40px 0 30px 10px;
+}
+
+.cClara .titulo a {
+    text-decoration: none;
+    color: #ffffff;
+    border-left: 1px solid rgba(255, 255, 255, 0.521);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.521);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.foto {
+    display: flex;
+}
+
+.foto .foto4, .foto5, .foto6 {
+    flex: 1;
+    height: 350px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: -2px 3px 5px #fff;
+}
+
+.foto4 {
+    background-image: url(../img/pele-clara1.jpg);
+    background-color: rgb(226, 225, 156);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto5 {
+    background-image: url(../img/pele-clara2.jpg);
+    background-color: rgb(174, 175, 76);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto6 {
+    background-image: url(../img/pele-clara3.jpg);
+    background-color: rgb(131, 123, 10);
+    background-size: cover;
+}
+
+/*Depoimento*/
+
+.depoimentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cDepo {
+    display: block;
+    height: calc(100vh - 100px);
+}
+
+.cDepo h2 {
+    margin: 40px 0 20px 10px;
+}
+
+.cDepo a {
+    text-decoration: none;
+    color: #000;
+    border-left: 1px solid rgba(0, 0, 0, 0.521);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.521);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.foto {
+    display: flex;
+}
+
+.foto .foto7, .foto8, .foto9 {
+    flex: 1;
+    width: 450px;
+    height: 420px;
+    border-radius: 50%;
+    margin: 5px;
+    box-shadow: -2px 3px 5px rgb(31, 28, 28);
+}
+
+.foto7 {
+    background-image: url(../img/depoimento1.png);
+    background-color: rgb(226, 225, 156);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto8 {
+    background-image: url(../img/depoimento2.png);
+    background-color: rgb(174, 175, 76);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto9 {
+    background-image: url(../img/depoimento3.png);
+    background-color: rgb(131, 123, 10);
+    background-size: cover;
+    background-position: center;
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: rgba(54, 53, 53, 0.774);
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.cFooter {
+    height: 100px;
+    border-bottom: 1px solid #000;
+}
+
+
+.fMenu, .social {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fMenu a {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.fMenu a:hover {
+    color: #000;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #424141bd;
+    border-left: 1px solid #424141bd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+i {
+    font-size: 30px;
+    color: white;
+}
+
+.fa-brands {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    background-color: #517fa4;
+}
+
+.fa-instagram:hover {
+    color: #517fa4;
+    background-color: transparent;
+    backdrop-filter: blur(100%);
+    border: 1px solid #517fa4;
+}
+
+.fa-whatsapp {
+    background-color: #34af23;
+}
+
+.fa-whatsapp:hover {
+    color: #34af23;
+    background-color: transparent;
+    backdrop-filter: blur(100%);
+    border: 1px solid #34af23;
+}
+
+.fa-facebook {
+    background-color: #3b5998;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    background-color: transparent;
+    backdrop-filter: blur(100%);
+    border: 1px solid #3b5998;
+}
+
+.infoName {
+    margin: 10px auto;
+}
+
+.date {
+    text-align: center;
+}
+
+
+/*Tablet*/
+
+@media(max-width: 768px) and (min-width:459px) {
+
+    .container {
+        width: 100vw;
+    }
+
+    .cNegra, .cClara, .cDepo {
+        height: 130vh;
+    }
+
+    .fMenu {
+        display: none;
+    }
+}
+
+
+/*Mobile*/
+
+@media(max-width:550px) {
+
+    .container {
+        width: 100vw;
+    }
+
+    .header {
+        height: 130px;
+    }
+
+    .header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navMenu {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .cBanner {
+        flex-flow: column wrap;
+        height: 900px;
+        background-color: rgba(0, 0, 0, 0.63);
+    }
+
+    .banner .bannerImg {
+        width: 95vw;
+    }
+
+    .banner .bannerBio {
+        width: 95vw;
+    }
+
+    .cBanner .bannerBio img {
+        width: 90vw;
+    }
+
+    .bannerBio .logo {
+        width: 100vw;
+    }
+
+    .cNegra, .cClara, .cDepo {
+        height: 150vh;
+    }
+
+    .foto {
+        flex-direction: column;
+        height: 135vh;
+    }
+
+    .foto .foto7, .foto8, .foto9 {
+        width: auto;
+    }
+
+    .footer {
+        height: 200px;
+    }
+
+    .cFooter {
+        width: 100vw;
+
+    }
+
+    .fMenu {
+        display: none;
+    }
+
+    .info {
+        width: 100vw;
+    }
+}
